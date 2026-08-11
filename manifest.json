@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "DeepFold",
+  "description": "为 DeepSeek 提供始终折叠、完成后折叠和不折叠三种思考过程显示方式。",
+  "version": "1.3.2",
+  "permissions": ["storage"],
+  "host_permissions": ["https://chat.deepseek.com/*"],
+  "icons": {
+    "16": "icons/deepfold-logo-16.png",
+    "32": "icons/deepfold-logo-32.png",
+    "48": "icons/deepfold-logo-48.png"
+  },
+  "action": {
+    "default_title": "DeepFold",
+    "default_icon": {
+      "16": "icons/deepfold-logo-16.png",
+      "32": "icons/deepfold-logo-32.png",
+      "48": "icons/deepfold-logo-48.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://chat.deepseek.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

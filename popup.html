@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DeepSeek 思考自动折叠</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main>
+      <div class="heading">
+        <img class="logo" src="icons/deepfold-logo.svg" alt="">
+        <div>
+          <h1>DeepFold</h1>
+          <p>适用于 chat.deepseek.com</p>
+        </div>
+      </div>
+
+      <fieldset class="choices">
+        <legend>选择自动折叠方式</legend>
+
+        <label class="choice">
+          <input type="radio" name="collapse-mode" value="always">
+          <span>
+            <strong>思考过程永远折叠</strong>
+            <small>内容开始输出后立即收起</small>
+          </span>
+        </label>
+
+        <label class="choice">
+          <input type="radio" name="collapse-mode" value="after">
+          <span>
+            <strong>输出完立即折叠</strong>
+            <small>思考完成前保持展开</small>
+          </span>
+        </label>
+
+        <label class="choice">
+          <input type="radio" name="collapse-mode" value="never">
+          <span>
+            <strong>思考过程不折叠</strong>
+            <small>保持 DeepSeek 默认行为</small>
+          </span>
+        </label>
+      </fieldset>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
