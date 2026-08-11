@@ -8,7 +8,7 @@ DeepFold 是一个专为 [DeepSeek Chat](https://chat.deepseek.com/) 设计的�
 2. 解压下载的 ZIP 文件。
 3. 在 Chrome 地址栏打开 `chrome://extensions/`。
 4. 打开右上角的“开发者模式”。
-5. 点击“加载已解压的扩展程序”，选择刚刚解压的文件夹。
+5. 点击“加载未打包的扩展程序”，选择刚刚解压完的文件夹。
 6. 打开或刷新 [DeepSeek Chat](https://chat.deepseek.com/)，点击工具栏中的 DeepFold 图标选择折叠方式。
 
 ## 三种模式
@@ -32,7 +32,3 @@ DeepFold 是一个专为 [DeepSeek Chat](https://chat.deepseek.com/) 设计的�
 
 - `storage`：保存用户选择的折叠模式。
 - `chat.deepseek.com`：监听页面中的思考状态并触发折叠。
-
-## 本地开发
-
-修改代码后，在 `chrome://extensions/` 点击 DeepFold 卡片上的刷新按钮，再刷新 DeepSeek 页面即可加载最新代码。
