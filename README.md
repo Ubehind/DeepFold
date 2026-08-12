@@ -1,6 +1,6 @@
 # DeepFold
 
-DeepFold 是一个专为 [DeepSeek Chat](https://chat.deepseek.com/) 设计的轻量 Chrome 扩展。它保留深度思考带来的回答质量，同时让你自由控制思考过程的展开方式。
+DeepFold 是一个专为 [DeepSeek Chat](https://chat.deepseek.com/) 设计的轻量 Chrome 扩展。在翻看DeepSeek对话历史时，有大量的思考过程占据了超大半的篇幅，非常影响阅读效率，于是制作了该 Chrome 扩展，让你自由控制思考过程的展开与折叠(若未来官方支持"思考过程"折叠功能后，会删除该库)。
 
 ## 快速使用
 
